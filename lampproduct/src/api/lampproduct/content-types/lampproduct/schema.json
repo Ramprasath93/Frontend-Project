@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lampproducts",
+  "info": {
+    "singularName": "lampproduct",
+    "pluralName": "lampproducts",
+    "displayName": "lampproduct"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "watts": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "integer"
+    },
+    "lamptype": {
+      "type": "string"
+    },
+    "department": {
+      "type": "string"
+    },
+    "supervisor": {
+      "type": "string"
+    }
+  }
+}
